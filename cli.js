@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import sade from 'sade'
 import pkg from './package.json' with { type: 'json' } // Already stable: https://nodejs.org/api/esm.html#json-modules
 import * as mod from './index.js'
