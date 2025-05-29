@@ -1,0 +1,26 @@
+{
+  "name": "@hyrious/bun-why",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Can't wait and implement `bun why`",
+  "author": "hyrious <hyrious@outlook.com>",
+  "license": "MIT",
+  "repository": "hyrious/bun-why",
+  "keywords": [
+    "bun",
+    "why"
+  ],
+  "bin": "cli.js",
+  "files": [
+    "lib",
+    "*.js"
+  ],
+  "dependencies": {
+    "sade": "^1.8.1",
+    "semver": "^7.7.2",
+    "validate-npm-package-name": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.24"
+  }
+}
